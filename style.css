@@ -559,8 +559,8 @@ html, body {
         margin: 0 auto;
     }
 
-    .nav-links a {
-        padding: 12px 18px;
+    .nav-links {
+        padding: 22px 18px;
     }
 
     .sobre-eyebrow {
@@ -583,7 +583,17 @@ html, body {
     }
 
     .sobre-btn {
-        margin-left: 73px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    background: var(--gold);
+    color: #1a1300;
+    text-decoration: none;
+    padding: 13px 32px;
+    border-radius: 980px;
+    font-weight: 600;
+    font-size: .98rem;
+    transition: opacity .25s ease;
     }
 }
 
@@ -641,6 +651,7 @@ html, body {
         -ms-overflow-style: none;
         scrollbar-width: none;
         max-width: 40vw;
+        border-radius: 16px;
     }
 
     .nav-links::-webkit-scrollbar{
@@ -650,6 +661,13 @@ html, body {
     .btn-contato{
         padding: 8px 16px;
         font-size: 12px;
+        background: #C9974A;
+        color: #111;
+        text-decoration:none;
+        padding:10px 15px;
+        border-radius: 10px;
+        font-size:15px;
+        font-weight:700;
     }
 }
 
@@ -667,6 +685,20 @@ html, body {
 
     .btn-contato{
         padding: 7px 12px;
-        font-size: 11px;
+        font-size: 12px;
+        background: #C9974A;
+        color: #111;
+        text-decoration:none;
+        padding:10px 15px;
+        border-radius: 10px;
+        font-size:15px;
+        font-weight:700;
+    }
+
+    .btn-contato:hover{
+        transform: scale(1.05);
+        background-color: #000000;
+        color:#ffffff;
+        border: 1px solid #e79d2e;
     }
 }
